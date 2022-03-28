@@ -2,10 +2,10 @@ from unittest.mock import Mock, patch
 
 import pytest
 
-from project.dao.models import Genre
-from project.exceptions import ItemNotFound
-from project.schemas.genre import GenreSchema
-from project.services import GenresService
+from dao.models import Genre
+from exceptions import ItemNotFound
+from schemas.genre import GenreSchema
+from services import GenresService
 
 
 class TestGenresService:
